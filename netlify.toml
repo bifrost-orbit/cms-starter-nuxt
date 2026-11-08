@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[template.environment]
+  NUXT_CMS_API_URL = "The API address, such as https://api.bifrostorbit.com/cms"
+  NUXT_CMS_PUBLIC_KEY = "Your public key, starting with cms_pk_"
+  NUXT_CMS_DEFAULT_REGION = "Your region key, such as global"
